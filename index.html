@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>RaitStats</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+	<body>
+		<div class="wrapper">
+ 			<header class="header">
+				<div class="container">
+					<div class="header__inner">
+						<div class="logo">
+							RaitStats
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="#">
+										Сборы
+									</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="#">
+										Медиа
+									</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="#">
+										Отзывы
+									</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="#">
+										Рейтинг
+									</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="#">
+										Цифровые копии
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__interaction">
+							<label class="header__interaction-label">
+								<input class="header__inp" type="text">
+								<button>
+									<img src="images/icon/search.png" alt="">
+								</button>
+							</label>
+							<a class="user__btn" href="#popup-login">
+								<img class="user" src="images/user.jpg">
+							</a>
+							<div id="popup-login" class="popup-user white-popup mfp-hide">
+								<div class="popup-login__tabs">
+									<a class="popup-login__tab popup-login__tab--active" href="#popup-login__tab-1">Вход</a>
+									<a class="popup-login__tab" href="#popup-login__tab-2">Регистрация</a>
+								</div>
+								<form id="popup-login__tab-1" class="popup-login__content popup-login__content--active" action="#">
+									<div><input id="log" type="e-mail" placeholder="Логин"></div>
+									<div><input id="passwd" type="password" placeholder="Пароль"></div>
+									<div class="popup-login__fail">
+										<a href="#">Забыли пароль?</a>
+									</div>
+									<div><input id="sub" type="submit" value="Войти"></div>
+								</form>
+								<form id="popup-login__tab-2" class="popup-login__content" action="#">
+									<div>
+										<input id="log" class="popup-login__names" type="text" placeholder="Ваше имя">
+										<input class="popup-login__names" type="text" placeholder="Ваша фамилия">
+									</div>
+									<div><input type="e-mail" placeholder="Введите Ваш e-mail"></div>	
+									<div><input type="password" placeholder="Придумайте пароль"></div>	
+									<div><input id="sub" type="submit" value="Зарегистрироваться"></div>	
+								</form>
+							</div>
+						</div>
+						<div class="header__burger">
+							<span class="burger-line"></span>
+						</div>
+					</div>
+					<div class="adaptive__menu">
+						<div class="header__interaction-mobile">
+							<label class="header__interaction-label">
+								<input class="header__inp" type="text" placeholder="Поиск">
+								<button>
+									<img src="images/icon/search.png" alt="">
+								</button>
+							</label>
+							<a class="user__btn" href="#popup-login">
+								<img class="user" src="images/user.jpg">
+							</a>
+						</div>
+						<ul class="adaptive__menu-list">
+							<li class="adaptive__menu-item">
+								<a class="adaptive__menu-link" href="#">Сборы</a>
+							</li>
+							<li class="adaptive__menu-item">
+								<a class="adaptive__menu-link" href="#">Медиа</a>
+							</li>
+							<li class="adaptive__menu-item">
+								<a class="adaptive__menu-link" href="#">Отзывы</a>
+							</li>
+							<li class="adaptive__menu-item">
+								<a class="adaptive__menu-link" href="#">Рейтинг</a>
+							</li>
+							<li class="adaptive__menu-item">
+								<a class="adaptive__menu-link" href="#">Цифровые копии</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<div class="films">
+					<div class="container">
+						<div class="films__inner">
+							<p class="vertical-text films__text">
+								смотреть сейчас
+							</p>
+							<div class="films__variants">	
+								<div class="films__item">
+									<img class="films__image" src="images/mk.jpg">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Мортал Комбат
+										</h4>
+										<p class="films__genre">
+											Боевик/Фэнтези
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="films__item">
+									<img class="films__image" src="images/forsaj.jpg">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Форсаж 9
+										</h4>
+										<p class="films__genre">
+											Боевик/Приключения
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="films__item">
+									<img class="films__image" src="images/gnew.png">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Гнев человеческий
+										</h4>
+										<p class="films__genre">
+											Боевик/Триллер
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="films__item">
+									<img class="films__image" src="images/dune.jpg">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Дюна
+										</h4>
+										<p class="films__genre">
+											Научная фантастика/Приключения
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="films__item">
+									<img class="films__image" src="images/chan.jpg">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Шан-Чи и легенда десяти колец
+										</h4>
+										<p class="films__genre">
+											Боевик/Фэнтези
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="films__item">
+									<img class="films__image" src="images/gnew.png">
+									<div class="films__image--black"></div>
+									<div class="films__subtext">
+										<h4 class="films__name">
+											Гнев человеческий
+										</h4>
+										<p class="films__genre">
+											Боевик/Триллер
+										</p>
+									</div>
+									<div class="films__text--hover">
+										<div class="films--hover__content films__information">
+											<a href="#">
+												<img src="images/icon/voscl.svg">
+												<p>Информация</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__ticket">
+											<a href="#">
+												<img src="images/icon/ticket.svg">
+												<p>Купить билет</p>
+											</a>
+										</div>
+										<div class="films--hover__content films__watch">
+											<a href="#">
+												<img src="images/icon/eye.svg">
+												<p>Смотреть сейчас</p>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="film">
+					<div class="container">
+						<div class="film__inner">
+							<p class="vertical-text film__text">
+								Лучшие
+							</p>
+							<div class="film__variants">
+								<div class="film__item">
+									<div class="film__item-inner">
+										<div class="film__general">
+											<div class="film__general--img">
+												<img src="images/spnwhposter.jpg" alt="">
+											</div>
+											<div class="film__general--gen">
+												<h3 class="film__general-title">
+													Человек-паук: Нет пути домой
+												</h3>
+												<div class="film__general--inf">
+													<ul class="film__general-list">
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Год
+															</div>
+															<div class="film__general-item-right">
+																2021
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Страна
+															</div>
+															<div class="film__general-item-right">
+																США, Индия
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Режиссёр
+															</div>
+															<div class="film__general-item-right">
+																Джон Уоттс
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Жанр
+															</div>
+															<div class="film__general-item-right">
+																фантастика, боевик, приключения, фэнтези
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Бюджет
+															</div>
+															<div class="film__general-item-right">
+																$200 000 000
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Продолжительность
+															</div>
+															<div class="film__general-item-right">
+																148 мин. / 02:28
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="film__media">
+											<video src="video/Человек-Паук_ нет пути домой - официальный трейлер.mp4" controls="controls" poster="images/teaser.jpg" muted="muted"></video>
+											<div class="film__media-text">
+												<h4 class="film__media-title">
+													Человек-паук: Нет пути домой
+												</h4>
+												<p class="film__media-actors">
+													Актёры: Том Холланд, Зендея, Бенедикт Камбербэтч, Мариса Томей, Уиллем Дефо, Альфред Молина, Джейми Фокс
+												</p>
+											</div>
+										</div>
+										<div class="film__descr">
+											Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука. Пытаясь исправить ситуацию, Питер обращается за помощью к Стивену Стрэнджу, но вскоре всё становится намного опаснее.
+										</div>
+										<div class="film__images">
+											<a href="images/smnwhimg1.jpg"><img src="images/smnwhimg1.jpg" alt=""></a>
+											<a href="images/smnwhimg2.jpg"><img src="images/smnwhimg2.jpg" alt=""></a>
+											<a href="images/smnwhimg3.jpg"><img src="images/smnwhimg3.jpg" alt=""></a>
+											<a href="images/smnwhimg4.jpg"><img src="images/smnwhimg4.jpg" alt=""></a>
+											<a href="images/smnwhimg5.jpg"><img src="images/smnwhimg5.jpg" alt=""></a>
+											<a href="images/smnwhimg6.jpg"><img src="images/smnwhimg6.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="film__item">
+									<div class="film__item-inner">
+										<div class="film__general">
+											<div class="film__general--img">
+												<img src="images/ellisiym.jpg">
+											</div>
+											<div class="film__general--gen">
+												<h3 class="film__general-title">
+													Элизиум: Рай не на Земле
+												</h3>
+												<div class="film__general--inf">
+													<ul class="film__general-list">
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																год
+															</div>
+															<div class="film__general-item-right">
+																2013
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																страна
+															</div>
+															<div class="film__general-item-right">
+																США, Мексика, Канада
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Режиссёр
+															</div>
+															<div class="film__general-item-right">
+																Нил Бломкамп
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Жанр
+															</div>
+															<div class="film__general-item-right">
+																фантастика, боевик, драма
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Бюджет
+															</div>
+															<div class="film__general-item-right">
+																$115 000 000
+															</div>
+														</li>
+														<li class="film__general-item">
+															<div class="film__general-item-left">
+																Продолжительность
+															</div>
+															<div class="film__general-item-right">
+																109 мин. / 01:49
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="film__media">
+											<video src="video/ellisiym.mp4" controls="controls" poster="images/ellisiym-poster.jpg" muted="muted"></video>
+											<div class="film__media-text">
+												<h4 class="film__media-title">
+													Элизиум: Рай не на Земле
+												</h4>
+												<p class="film__media-actors">
+													Актёры: Мэтт Дэймон, Алиси Брага, Шарлто Копли, Джоди Фостер, Вагнер Моура
+												</p>
+											</div>
+										</div>
+										<div class="film__descr">
+											В 2159 году существует два класса людей: очень богатые, живущие на чистой, созданной руками человека, космической станции под названием Элизиум и остальные, живущие на перенаселённой разрушенной Земле.
+										</div>
+										<div class="film__images">
+											<a href="images/elimg1.jpg"><img src="images/elimg1.jpg" alt=""></a>
+											<a href="images/elimg2.jpg"><img src="images/elimg2.jpg" alt=""></a>
+											<a href="images/elimg3.jpg"><img src="images/elimg3.jpg" alt=""></a>
+											<a href="images/elimg4.jpg"><img src="images/elimg4.jpg" alt=""></a>
+											<a href="images/elimg5.jpg"><img src="images/elimg5.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> 
+
+ 				<section class="new">
+					<div class="container">
+						<div class="new__inner">
+							<div class="new__today">
+								<div class="new__today__inner">
+									<div class="new__today-news">
+										<div class="new__title today-news__title">
+											<h2>Новости</h2>
+											<div class="today-news__tabs">
+												<a class="today-news__tab today-news__tab--active" href="#tab-1">Топ</a>
+												<a class="today-news__tab" href="#tab-2">Кино</a>
+												<a class="today-news__tab" href="#tab-3">Мировые</a>
+											</div>
+										</div>
+										<div id="tab-1" class="today__content-tab today__content-tab--active">
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Человек паук: Нет пути домой самый кассовый кинокомикс
+													</h4>
+													<p class="new__today-textdescr">
+														По данным  Единой Федеральной автоматизированной информационной...
+														<a class="new__today-textdescr--more" href="https://moika78.ru/news/2022-01-09/726106-film-chelovek-pauk-net-puti-domoj-stal-samym-kassovym-kinokomiksom-v-rossii/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland2.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Обновленные сборы Человека-паука
+													</h4>
+													<p class="new__today-textdescr">
+														Триквел Человека-паука уже 4 недели подряд лидирует в...
+														<a class="new__today-textdescr--more" href="https://pluggedin.ru/open/obnovlennye-sbory-cheloveka-pauka:-net-puti-domoy-bez-kitaya-35909">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland3.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														"Человек-Паук 3 нет пути домой" обогнал "Титаник"
+													</h4>
+													<p class="new__today-textdescr">
+														Фантастический фильм "Человек-Паук 3" записал еще одно выдающееся достижение...
+														<a class="new__today-textdescr--more" href="https://www.kinonews.ru/news_104705/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div id="tab-2" class="today__content-tab">
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland3.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														"Человек-Паук 3 нет пути домой" обогнал "Титаник"
+													</h4>
+													<p class="new__today-textdescr">
+														Фантастический фильм "Человек-Паук 3" записал еще одно выдающееся достижение...
+														<a class="new__today-textdescr--more" href="https://www.kinonews.ru/news_104705/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Человек паук: Нет пути домой самый кассовый кинокомикс
+													</h4>
+													<p class="new__today-textdescr">
+														По данным  Единой Федеральной автоматизированной информационной...
+														<a class="new__today-textdescr--more" href="https://moika78.ru/news/2022-01-09/726106-film-chelovek-pauk-net-puti-domoj-stal-samym-kassovym-kinokomiksom-v-rossii/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland2.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Обновленные сборы Человека-паука
+													</h4>
+													<p class="new__today-textdescr">
+														Триквел Человека-паука уже 4 недели подряд лидирует в...
+														<a class="new__today-textdescr--more" href="https://pluggedin.ru/open/obnovlennye-sbory-cheloveka-pauka:-net-puti-domoy-bez-kitaya-35909">Подробнее</a>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div id="tab-3" class="today__content-tab">
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland2.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Обновленные сборы Человека-паука
+													</h4>
+													<p class="new__today-textdescr">
+														Триквел Человека-паука уже 4 недели подряд лидирует в...
+														<a class="new__today-textdescr--more" href="https://pluggedin.ru/open/obnovlennye-sbory-cheloveka-pauka:-net-puti-domoy-bez-kitaya-35909">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland3.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														"Человек-Паук 3 нет пути домой" обогнал "Титаник"
+													</h4>
+													<p class="new__today-textdescr">
+														Фантастический фильм "Человек-Паук 3" записал еще одно выдающееся достижение...
+														<a class="new__today-textdescr--more" href="https://www.kinonews.ru/news_104705/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+											<div class="new__today-content">
+												<div class="new__today-image">
+													<img src="images/holland.jpg">
+												</div>
+												<div class="new__today-text">
+													<h4 class="new__today-texttitle">
+														Человек паук: Нет пути домой самый кассовый кинокомикс
+													</h4>
+													<p class="new__today-textdescr">
+														По данным  Единой Федеральной автоматизированной информационной...
+														<a class="new__today-textdescr--more" href="https://moika78.ru/news/2022-01-09/726106-film-chelovek-pauk-net-puti-domoj-stal-samym-kassovym-kinokomiksom-v-rossii/">Подробнее</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="new__today-actors">
+										<div class="new__title today-actors__title">
+											<h2>Актёры месяца</h2>
+											<a class="today-actors-link" href="#">Смотреть всех</a>
+										</div>
+										<ul class="new__today-actors-list">
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Keany.jpg" alt="">
+													<p>Киану Ривз</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Holland.jpeg" alt="">
+													<p>Том Холланд</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Zendaya.jpg" alt="">
+													<p>Зендея</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Sanada.jpg" alt="">
+													<p>Хироюки Санада</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Statham.jpg" alt="">
+													<p>Джейсон Стейтем</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Rodriguez.jpg" alt="">
+													<p>Мишель Родригес</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Emmanyel.jpg" alt="">
+													<p>Натали Эммануэль</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Hardy.jpg" alt="">
+													<p>Том Харди</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/WoodyHarrelson.jpg" alt="">
+													<p>Вуди Харрельсон</p>
+												</a>
+											</li>
+											<li>
+												<a class="new__today-actors-item" href="#">
+													<img src="images/actors/Diesel.jpg" alt="">
+													<p>Вин Дизель</p>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="new__today-wallpapers">
+										<div class="new__title today-wallpapers__title">
+											<h2>Картинки дня</h2>
+										</div>
+										<div class="today-wallpapers__image">
+											<a class="today-wallpapers__image--zoom" href="images/GodzilaVsKong.jpg">
+												<img src="images/GodzilaVsKong.jpg">
+											</a>
+										</div>
+										<div class="today-wallpapers__image">
+											<a class="today-wallpapers__image--zoom" href="images/Forsajwallpaper.webp">
+												<img src="images/Forsajwallpaper.webp">
+											</a>
+										</div>
+										<div class="today-wallpapers__image">
+											<a class="today-wallpapers__image--zoom" href="images/mkwallpaper.jpg">
+												<img src="images/mkwallpaper.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="new__tops">
+								<div class="new__tops__inner">
+									<div class="new__tops-rait">
+										<div class="new__title">
+											<h2>Топ рейтинга</h2>
+											<a class="tops-movie__title--link" href="https://www.kinonews.ru/kassa_top100/">
+												Смотреть все
+											</a>
+										</div>
+										<div class="tops-rait__content">
+											<ul class="tops-rait__list">
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/greenmile.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Зеленая миля
+															</p>
+															<p class="tops__content-rait">
+																9.1
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/Shawshank.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Побег из Шоушенка
+															</p>
+															<p class="tops__content-rait">
+																9.1
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/returnKing.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Властелин колец: Возвращение короля
+															</p>
+															<p class="tops__content-rait">
+																8.9
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/vlastelindva.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Властелин колец: Две крепости
+															</p>
+															<p class="tops__content-rait">
+																8.8
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/vlastcBrothe.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Властелин колец: Братство Кольца
+															</p>
+															<p class="tops__content-rait">
+																8.8
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/forest.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Форрест Гамп
+															</p>
+															<p class="tops__content-rait">
+																8.7
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/LionKing.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Король Лев
+															</p>
+															<p class="tops__content-rait">
+																8.6
+															</p>
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="new__recomendet-movie">
+										<div class="new__title recomendet-movie__title">
+											<h2>Рекомендуем к просмотру</h2>
+										</div>
+										<div class="recomendet-movie__item">
+											<div class="recomendet-movie-image">
+												<img src="images/miles.jpg">
+												<div class="recomendet-movie-image--shadow"></div>
+												<h5 class="recomendet-movie__item--title">
+													Человек-паук: Через вселенные
+												</h5>
+											</div>
+											<p class="recomendet-movie__item--ganre">
+												мультфильм, фантастика, боевик, приключения, семейный
+											</p>
+											<div class="recomendet-movie__item--btn">
+												<button>к просмотру</button>
+											</div>
+										</div>
+									</div>
+									<div class="new__tops-money">
+										<div class="tops-movie__title">
+											<div class="new__title">
+												<h2>Топ кассовых фильмов</h2>
+												<a class="tops-movie__title--link" href="https://www.kinonews.ru/kassa_top100/">
+													Смотреть все
+												</a>
+											</div>
+										</div>
+										<div class="new__tops-content">
+											<ul class="tops-content-list">
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<div class="tops-content__image">	
+															<img src="images/avatar.jpg">
+														</div>
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Аватар
+															</p>
+															<p class="tops__content-cash">
+																$2 847 246 203
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/avengers4.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Мстители 4: Финал
+															</p>
+															<p class="tops__content-cash">
+																$2 797 501 328
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/titanic.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Титаник
+															</p>
+															<p class="tops__content-cash">
+																$2 201 647 264
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/starwars7.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Звездные войны: Эпизод 7 - Пробуждение Силы
+															</p>
+															<p class="tops__content-cash">
+																$2 069 521 700
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/avengers3.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Мстители 3: Война бесконечности
+															</p>
+															<p class="tops__content-cash">
+																$2 048 359 754
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/jurasicworld.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Мир Юрского периода
+															</p>
+															<p class="tops__content-cash">
+																$1 670 516 444
+															</p>
+														</div>
+													</a>
+												</li>
+												<li class="tops-content__item">
+													<a class="tops-content__item--link" href="#">
+														<img class="tops-content__image" src="images/spiderman3.jpg">
+														<div class="tops-content__inner">
+															<p class="tops__content-name">
+																Человек-Паук 3: нет пути домой
+															</p>
+															<p class="tops__content-cash">
+																$1 536 253 195
+															</p>
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__links">
+							<ul class="footer__links-list">
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Главная</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Фильмы с высоким рейтингом</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Кассовые фильмы</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">ТВ</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Скоро</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Серверы</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Поиск</a>
+								</li>
+							</ul>
+							<ul class="footer__links-list">
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Связаться с нами</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Сообщения</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Аккаунт</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Новости</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Пресс-комната</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Работа</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Реклама</a>
+								</li>
+							</ul>
+							<ul class="footer__links-list">
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Подписка Pro</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Данные кинопоиск</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Сборы</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Условия использования</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Политика конфиденциальности</a>
+								</li>
+								<li class="footer__links-item">
+									<a href="#" class="footer__links-link">Объявления на основе интересов</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__more">
+							<div class="footer__app">
+								<h3 class="footer__title footer__app-title">
+									Приложения
+								</h3>
+								<div class="footer__app-images">
+									<a class="footer__app-image" href="#">
+										<img src="images/icon/appstore.png">
+									</a>
+									<a class="footer__app-image" href="#">
+										<img src="images/icon/googleplay.png">
+									</a>
+									<a class="footer__app-image" href="#">
+										<img src="images/icon/appgal.png">
+									</a>
+								</div>
+								<p class="footer__app-text">
+									Переходя по ссылкам вы можете скачать наше официальное приложение в зависимости от вашего устройства.
+								</p>
+							</div>
+							<div class="footer__follows">
+								<h3 class="footer__title footer__follows-title">
+									Подпишитесь на нас
+								</h3>
+								<div class="footer__follows-images">
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/instagram.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/vk.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/googleplus.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/twiter.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/youtube.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/facebook.png">
+									</a>
+									<a class="footer__follows-image" href="#">
+										<img src="images/icon/linkedin.png">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<p class="footer__bottom-copy">
+							Copyright ©, Revan Darth. 2022
+						</p>
+					</div>
+				</div>
+			</footer> 
+		</div>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
