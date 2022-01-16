@@ -46,12 +46,12 @@ $(document).ready(function() {
 		dots: true,
 		arrows: true,
 		responsive: [
-    {
-     	breakpoint: 1100,
-      settings: {
-      	dots: false,
-      	arrows: false,
-      	}
+   		{
+     		breakpoint: 1100,
+    		settings: {
+      		dots: true,
+      		arrows: false,
+      		}
     	},
    ]
 	});
